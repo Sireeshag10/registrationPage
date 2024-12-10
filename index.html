@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+           
+            border-radius: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .error {
+            border-color: red;
+        }
+        .success {
+            border-color: green;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form action="https://achiversit.com">
+        
+            <form id="registrationForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Enter mobile number" required>
+
+            <label for="pancard">PAN Card</label>
+            <input type="text" id="pancard" name="pancard" placeholder="Enter PAN card" required>
+
+            <label for="aadharcard">Aadhar Card</label>
+            <input type="text" id="aadharcard" name="aadharcard" placeholder="Enter Aadhar card" required>
+
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+    <script src="./java.js"></script>
+   </body>
+   </html>
